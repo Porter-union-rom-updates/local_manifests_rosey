@@ -2,21 +2,31 @@
 <manifest>
   <remote name="gitea"
           fetch="https://gitea.com"
-          revision="refs/heads/lineage-21.0" />
+          revision="refs/heads/lineage-22.0" />
 
   <remote name="gitlab"
           fetch="https://gitlab.com"
           revision="refs/heads/13.x" />
 
-  <project path="device/atiga/ota" name="aepranata/device_atiga_ota" />
-  <project path="packages/apps/AtigaFx" name="aepranata/packages_apps_AtigaFx" remote="gitea" revision="atiga-1.0" />
+  <!-- AOSP -->
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="aepranata/packages_apps_Settings" groups="pdk-fs" />
+
+  <!-- LineageOS -->
   <remove-project name="LineageOS/android_packages_apps_Updater" />
   <project path="packages/apps/Updater" name="aepranata/packages_apps_Updater" />
-  <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="aepranata/atiga-clang" remote="gitlab" clone-depth="1" />
-  <project path="vendor/atiga/fx" name="aepranata/vendor_atiga_fx" remote="gitea" revision="atiga-1.0" />
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project path="vendor/lineage" name="aepranata/vendor_lineage" />
+
+  <!-- Atiga Trees -->
+  <project path="device/xiaomi/rosy" name="Atiga-Stuff/device_xiaomi_rosy" remote="private" revision="15" depth=1 />
+  <project path="kernel/xiaomi/rosy" name="Atiga-Stuff/kernel_xiaomi_rosy" remote="private" revision="15" sync-s="true"/>
+  <project path="vendor/xiaomi/rosy" name="Atiga-Stuff/vendor_xiaomi_rosy" remote="private" revision="15" depth=1 />
+
+  <!-- Atiga Stuff -->
+  <project path="device/atiga/ota" name="aepranata/device_atiga_ota" />
+  <project path="packages/apps/AtigaFx" name="aepranata/packages_apps_AtigaFx" remote="gitea" revision="atiga-1.0" />
+  <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="aepranata/atiga-clang" remote="gitlab" clone-depth="1" />
+  <project path="vendor/atiga/fx" name="aepranata/vendor_atiga_fx" remote="gitea" revision="atiga-1.0" />
   <project path="vendor/lineage-priv" name="aepranata/vendor_atiga-priv" remote="gitea" />
 </manifest>
