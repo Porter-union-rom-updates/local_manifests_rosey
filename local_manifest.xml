@@ -19,9 +19,9 @@
   <project path="vendor/lineage" name="aepranata/vendor_lineage" />
 
   <!-- Atiga Trees -->
-  <project path="device/xiaomi/rosy" name="Atiga-Stuff/device_xiaomi_rosy" remote="private" revision="15" depth=1 />
+  <project path="device/xiaomi/rosy" name="Atiga-Stuff/device_xiaomi_rosy" remote="private" revision="15" />
   <project path="kernel/xiaomi/rosy" name="Atiga-Stuff/kernel_xiaomi_rosy" remote="private" revision="15" sync-s="true"/>
-  <project path="vendor/xiaomi/rosy" name="Atiga-Stuff/vendor_xiaomi_rosy" remote="private" revision="15" depth=1 />
+  <project path="vendor/xiaomi/rosy" name="Atiga-Stuff/vendor_xiaomi_rosy" remote="private" revision="15" />
 
   <!-- Atiga Stuff -->
   <project path="device/atiga/ota" name="aepranata/device_atiga_ota" />
