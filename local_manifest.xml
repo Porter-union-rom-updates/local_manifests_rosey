@@ -14,7 +14,7 @@
 
   <!-- LineageOS -->
   <remove-project name="LineageOS/android_packages_apps_Updater" />
-  <project path="packages/apps/Updater" name="aepranata/packages_apps_Updater" />
+  <project path="packages/apps/Updater" name="aepranata/packages_apps_Updater" remote="private" revision="lineage-22.0" />
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project path="vendor/lineage" name="aepranata/vendor_lineage" />
 
