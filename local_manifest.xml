@@ -10,13 +10,13 @@
 
   <!-- AOSP -->
   <remove-project name="LineageOS/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="aepranata/packages_apps_Settings" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="Atiga-Stuff/packages_apps_Settings" groups="pdk-fs" />
 
   <!-- LineageOS -->
   <remove-project name="LineageOS/android_packages_apps_Updater" />
-  <project path="packages/apps/Updater" name="aepranata/packages_apps_Updater" remote="private" revision="lineage-22.0" />
+  <project path="packages/apps/Updater" name="Atiga-Stuff/packages_apps_Updater" remote="private" revision="lineage-22.0" />
   <remove-project name="LineageOS/android_vendor_lineage" />
-  <project path="vendor/lineage" name="aepranata/vendor_lineage" />
+  <project path="vendor/lineage" name="Atiga-Stuff/vendor_lineage" />
 
   <!-- Atiga Trees -->
   <project path="device/xiaomi/rosy" name="Atiga-Stuff/device_xiaomi_rosy" remote="private" revision="15" />
@@ -25,8 +25,7 @@
 
   <!-- Atiga Stuff -->
   <project path="device/atiga/ota" name="aepranata/device_atiga_ota" />
-  <project path="packages/apps/AtigaFx" name="aepranata/packages_apps_AtigaFx" remote="gitea" revision="atiga-1.0" />
   <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="aepranata/atiga-clang" remote="gitlab" clone-depth="1" />
-  <!--<project path="vendor/atiga/fx" name="aepranata/vendor_atiga_fx" remote="gitea" revision="atiga-1.0" />-->
+  <!--<project path="vendor/atiga/fx" name="Atiga-Stuff/vendor_atiga_fx" revision="atiga-1.0" />-->
   <project path="vendor/lineage-priv" name="aepranata/vendor_atiga-priv" remote="gitea" />
 </manifest>
