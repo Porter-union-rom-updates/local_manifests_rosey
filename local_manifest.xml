@@ -26,6 +26,6 @@
   <!-- Atiga Stuff -->
   <project path="device/atiga/ota" name="aepranata/device_atiga_ota" />
   <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="aepranata/atiga-clang" remote="gitlab" clone-depth="1" />
-  <!--<project path="vendor/atiga/fx" name="Atiga-Stuff/vendor_atiga_fx" revision="atiga-1.0" />-->
+  <project path="vendor/atiga/fx" name="Atiga-Stuff/vendor_atiga_fx" revision="atiga-1.0" />
   <project path="vendor/lineage-priv" name="aepranata/vendor_atiga-priv" remote="gitea" />
 </manifest>
