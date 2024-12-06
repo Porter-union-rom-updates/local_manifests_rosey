@@ -9,9 +9,9 @@
           revision="refs/heads/13.x" />
 
   <!-- Atiga Trees -->
-  <project path="device/xiaomi/rosy" name="aepranata/device_xiaomi_rosy" revision="14" />
-  <project path="kernel/xiaomi/rosy" name="aepranata/kernel_xiaomi_rosy" revision="14" />
-  <project path="vendor/xiaomi/rosy" name="aepranata/vendor_xiaomi_rosy" revision="14" />
+  <project path="device/xiaomi/rosy" name="Atiga-Stuff/device_xiaomi_rosy" remote="private" revision="14" />
+  <project path="kernel/xiaomi/rosy" name="Atiga-Stuff/kernel_xiaomi_rosy" remote="private" revision="14" />
+  <project path="vendor/xiaomi/rosy" name="Atiga-Stuff/vendor_xiaomi_rosy" remote="private" revision="14" />
 
   <!-- Atiga Stuff -->
   <project path="packages/apps/AtigaArtsStub" name="Atiga-Stuff/packages_apps_AtigaArtsStub" revision="atiga-1.0" clone-depth="1" />
