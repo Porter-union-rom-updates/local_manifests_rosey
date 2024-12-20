@@ -15,6 +15,8 @@
   <project path="packages/apps/Settings" name="Atiga-Stuff/packages_apps_Settings" groups="pdk-fs" revision="lineage-22.0-plus" />
 
   <!-- LineageOS -->
+  <remove-project name="LineageOS/android_lineage-sdk" />
+  <project path="lineage-sdk" name="Atiga-Stuff/lineage-sdk" remote="private" revision="lineage-22.0-plus" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
   <project path="packages/apps/AtigaLauncher" name="Atiga-Stuff/packages_apps_AtigaLauncher" remote="private" revision="atiga-1.0" />
   <remove-project name="LineageOS/android_packages_apps_Updater" />
