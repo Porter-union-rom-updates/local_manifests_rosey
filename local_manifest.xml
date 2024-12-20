@@ -9,6 +9,8 @@
           revision="refs/heads/13.x" />
 
   <!-- AOSP -->
+  <remove-project name="LineageOS/android_external_robolectric" />
+  <project path="external/robolectric" name="Atiga-Stuff/external_robolectric" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="lineage-22.0-plus" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="Atiga-Stuff/packages_apps_Settings" groups="pdk-fs" revision="lineage-22.0-plus" />
 
