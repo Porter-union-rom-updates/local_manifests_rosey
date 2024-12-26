@@ -14,7 +14,7 @@
   <remove-project name="LineageOS/android_frameworks_libs_systemui" />
   <project path="frameworks/libs/systemui" name="Atiga-Stuff/frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="private" revision="lineage-22.0-plus" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="Atiga-Stuff/packages_apps_Settings" groups="pdk-fs" revision="lineage-22.0-plus" />
+  <project path="packages/apps/Settings" name="Atiga-Stuff/packages_apps_Settings" groups="pdk-fs" remote="private" revision="lineage-22.0-plus" />
 
   <!-- LineageOS -->
   <remove-project name="LineageOS/android_lineage-sdk" />
