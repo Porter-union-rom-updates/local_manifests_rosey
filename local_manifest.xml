@@ -39,6 +39,7 @@
   <!-- Atiga Stuff -->
   <project path="device/atiga/ota" name="aepranata/device_atiga_ota" revision="lineage-22.0" />
   <project path="packages/apps/AtigaArtsStub" name="Atiga-Stuff/packages_apps_AtigaArtsStub" revision="atiga-1.0" clone-depth="1" />
+  <project path="packages/apps/FaceUnlock" name="Atiga-Stuff/packages_apps_FaceUnlock" remote="private" revision="atiga-1.0" />
   <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="aepranata/atiga-clang" remote="gitlab" clone-depth="1" />
   <project path="vendor/atiga/fx" name="Atiga-Stuff/vendor_atiga_fx" revision="atiga-2.0" />
   <project path="vendor/lineage-priv" name="aepranata/vendor_atiga-priv" remote="gitea" />
