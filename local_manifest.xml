@@ -9,18 +9,20 @@
           revision="refs/heads/13.x" />
 
   <!-- AOSP -->
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project path="frameworks/base" name="Atiga-Stuff/frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="private" revision="lineage-22.0-plus" />
   <remove-project name="LineageOS/android_external_robolectric" />
   <project path="external/robolectric" name="Atiga-Stuff/external_robolectric" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="lineage-22.0-plus" />
   <remove-project name="LineageOS/android_frameworks_libs_systemui" />
   <project path="frameworks/libs/systemui" name="Atiga-Stuff/frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="private" revision="lineage-22.0-plus" />
+  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/AtigaLauncher" name="Atiga-Stuff/packages_apps_AtigaLauncher" remote="private" revision="atiga-1.0" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="Atiga-Stuff/packages_apps_Settings" groups="pdk-fs" remote="private" revision="lineage-22.0-plus" />
 
   <!-- LineageOS -->
   <remove-project name="LineageOS/android_lineage-sdk" />
   <project path="lineage-sdk" name="Atiga-Stuff/lineage-sdk" remote="private" revision="lineage-22.0-plus" />
-  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-  <project path="packages/apps/AtigaLauncher" name="Atiga-Stuff/packages_apps_AtigaLauncher" remote="private" revision="atiga-1.0" />
   <remove-project name="LineageOS/android_packages_apps_Updater" />
   <project path="packages/apps/Updater" name="Atiga-Stuff/packages_apps_Updater" remote="private" revision="lineage-22.0-plus" />
   <remove-project name="LineageOS/android_vendor_lineage" />
