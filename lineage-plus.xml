@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- AOSP -->
+  <project path="frameworks/base" name="Atiga-Stuff/frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="private" revision="lineage-22.0-plus" />
+  <project path="external/robolectric" name="Atiga-Stuff/external_robolectric" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="lineage-22.0-plus" />
+  <project path="frameworks/libs/systemui" name="Atiga-Stuff/frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="private" revision="lineage-22.0-plus" />
+  <project path="packages/apps/Settings" name="Atiga-Stuff/packages_apps_Settings" groups="pdk-fs" remote="private" revision="lineage-22.0-plus" />
+
+  <!-- LineageOS -->
+  <project path="lineage-sdk" name="Atiga-Stuff/lineage-sdk" remote="private" revision="lineage-22.0-plus" />
+  <project path="vendor/lineage" name="Atiga-Stuff/vendor_lineage" revision="lineage-22.0-plus" />
+</manifest>

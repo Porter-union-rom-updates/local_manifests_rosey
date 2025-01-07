@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Atiga Trees -->
+  <project path="device/xiaomi/rosy" name="Atiga-Stuff/device_xiaomi_rosy" remote="private" revision="15" />
+  <project path="kernel/xiaomi/rosy" name="Atiga-Stuff/kernel_xiaomi_rosy" remote="private" revision="15" />
+  <project path="vendor/xiaomi/rosy" name="Atiga-Stuff/vendor_xiaomi_rosy" remote="private" revision="15" />
+</manifest>

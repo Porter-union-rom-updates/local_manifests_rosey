@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="gitea"
+          fetch="https://gitea.com"
+          revision="refs/heads/lineage-22.0" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com"
+          revision="refs/heads/13.x" />
+
+  <!-- AOSP -->
+  <project path="packages/apps/AtigaLauncher" name="Atiga-Stuff/packages_apps_AtigaLauncher" remote="private" revision="atiga-1.0" />
+
+  <!-- Atiga Stuff -->
+  <project path="device/atiga/ota" name="aepranata/device_atiga_ota" revision="lineage-22.0" />
+  <project path="packages/apps/AtigaArtsStub" name="Atiga-Stuff/packages_apps_AtigaArtsStub" revision="atiga-1.0" clone-depth="1" />
+  <project path="packages/apps/Updater" name="Atiga-Stuff/packages_apps_Updater" remote="private" revision="lineage-22.0-plus" />
+  <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="aepranata/atiga-clang" remote="gitlab" clone-depth="1" />
+  <project path="vendor/atiga/fx" name="Atiga-Stuff/vendor_atiga_fx" revision="atiga-2.0" />
+  <project path="vendor/lineage-priv" name="aepranata/vendor_atiga-priv" remote="gitea" />
+</manifest>
