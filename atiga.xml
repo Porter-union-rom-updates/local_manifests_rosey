@@ -8,6 +8,9 @@
           fetch="https://gitlab.com"
           revision="refs/heads/13.x" />
 
+  <!-- Remove -->
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
+
   <!-- AOSP -->
   <project path="packages/apps/AtigaLauncher" name="Atiga-Stuff/packages_apps_AtigaLauncher" remote="private" revision="atiga-1.0" />
 
