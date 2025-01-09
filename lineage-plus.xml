@@ -8,5 +8,6 @@
 
   <!-- LineageOS -->
   <project path="lineage-sdk" name="Atiga-Stuff/lineage-sdk" remote="private" revision="lineage-22.0-plus" />
+  <project path="packages/apps/LineageParts" name="Atiga-Stuff/packages_apps_LineageParts" remote="private" revision="lineage-22.0-plus" />
   <project path="vendor/lineage" name="Atiga-Stuff/vendor_lineage" revision="lineage-22.0-plus" />
 </manifest>
