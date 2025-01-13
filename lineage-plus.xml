@@ -7,6 +7,7 @@
   <remove-project name="LineageOS/android_frameworks_libs_systemui" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_system_core" />
 
   <remove-project name="LineageOS/android_lineage-sdk" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
@@ -18,6 +19,7 @@
   <project path="external/robolectric" name="Atiga-Stuff/external_robolectric" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="lineage-22.0-plus" />
   <project path="frameworks/libs/systemui" name="Atiga-Stuff/frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="private" revision="lineage-22.0-plus" />
   <project path="packages/apps/Settings" name="Atiga-Stuff/packages_apps_Settings" groups="pdk-fs" remote="private" revision="lineage-22.0-plus" />
+  <project path="system/core" name="Atiga-Stuff/system_core" groups="pdk" remote="private" revision="lineage-22.0-plus" />
 
   <!-- LineageOS -->
   <project path="lineage-sdk" name="Atiga-Stuff/lineage-sdk" remote="private" revision="lineage-22.0-plus" />
